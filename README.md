@@ -2,14 +2,23 @@
 
 Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html) (CLI) which lets you scaffold and manage your project in seconds.
 
-### `develop`
+### `Node version`
+
+Before to start application install node version manager. [NVM github](https://github.com/nvm-sh/nvm)
+Then use project installed node version
+
+```
+nvm use
+```
+
+### `dev`
 
 Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-develop)
 
 ```
-npm run develop
+npm run dev
 # or
-yarn develop
+yarn dev
 ```
 
 ### `start`
